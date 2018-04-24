@@ -1,0 +1,115 @@
+body{
+    background-image: url("bgwood.jpg");
+}
+
+
+ul{
+    list-style-type: none;
+    margin:0;
+    background-color:#86620b;
+    overflow: hidden;
+    padding: 10px;
+    margin-left:10px;
+}
+
+li{
+    display:inline;
+    white-space: normal;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+li a{
+
+    color:white;
+    text-align: center;
+    padding:36px 45px;
+    text-decoration: none;
+    align-items: center;
+    font-family:Arial;
+}
+
+li a:hover {
+    background-color: red;
+    color:white;
+}
+.imgdiv{
+    margin-top: 30px;
+
+}
+
+.imgbtn{
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right:20px;
+    background-color: #86620b;
+    font-size: 16px;
+    cursor:pointer;
+    padding:10px 30px;
+    color:white;
+    border:none;
+    width:130px;
+    height:50px;
+    border-radius: 10px;
+
+}
+
+.img1 {
+
+    float: left;
+    align-items: center;
+    align-content: center;
+}
+#myimg{
+    border-radius: 20px;
+    width:60%;
+    background-color: #ab7c09;
+    padding: 10px;
+    object-fit: contain;
+}
+#buybtn{
+    float:right;
+
+    border:none;
+    height:80px;
+    width:150px;
+    color:black;
+    background-color: #86620b;
+    margin-right: 190px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#info{
+    float:left;
+    margin-left:20%;
+
+}
+
+
+
+#wrapprodinfo {
+    display: none;
+}
+
+#wrapshipinfo{
+    display:none;
+}
+
+#wrapcustomerreview{
+    display:none;
+}
+
+
+.button3{
+    height:60px;
+    width:400px;
+    color:white;
+    background-color: #ab7c09;
+    border:none;
+    border-radius: 10px;
+}
+#buy{
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finalizing</title>
+    <link rel="stylesheet" href="pg2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body onload="mypage2()">
+    <div id="container">
+
+        <div id="containers">
+            <div id="navdiv"></div>
+            <ul id="navigation">
+                <li class="navbars"><a href="index.html">HOME</a></li>
+                <li class="navbars"><a href="#guitars">GUITARS</a></li>
+                <li class="navbars"><a href="#drums">DRUMS</a></li>
+                <li class="navbars"><a href="#piano">PIANO</a></li>
+                <li class="navbars"><a href="#casio">CASIO</a></li>
+                <li class="navbars"><a href="#HELP">HELP</a></li>
+            </ul>
+        </div>
+
+        <div id="middiv">
+            <div id="myguitar">
+                <img id="img1" src="1.jpg" height="300" width="500">
+
+            </div>
+            <div id="myguitardescription">
+
+                    <div id="productinfo">
+                        <button onclick="wrapProdInfo()" class="button3"><h1>Product Information</h1></button>
+                        <div id="wrapprodinfo">
+                            <h2 id="prodname">American Guitar</h2>
+                            <p>Price: <b id="prodprice">$250.00</b></p>
+                            <p>Color: <b id="prodcolor">Scandal</b></p>
+                            <p>Weight: <b id="prodweight">200lb</b></p><br>
+                            <h3 id="clr"><b></b>CONGRATULATIONS!!!<br>You are getting a good Deal.</b></h3></p>
+                        </div>
+
+
+            </div>
+
+            </div>
+            <div id="thirdpart" class="container">
+                <h1 id="headline">Please fill the required details below:</h1>
+                <form name="myform" class="form-group">
+                    <label>First name:</label><input type="text" name="firstname" id="firstname" class="form-control" ><br>
+                    <label>Last name:</label><input type="text" name="lastname" id="lastname" class="form-control" ><br>
+                    <label>Phone Number:</label><input type="text" name="phonenum" id="phn" class="form-control" value=""><br>
+                    <label>Address:</label><input type="text" name="address" id="addr" class="form-control"  value=""><br>
+                    <label>Zip Code:</label><input type="text" name="zipcode" id="zipcode" class="form-control" value=""><br>
+                    <label>Email:</label><input type="email" name="email" class="form-control" id="eml"  ><br>
+                    <label>Enter Card Number:</label><input type="cardnum" name="firstname" id="cardnum" class="form-control" value=""><br>
+                    <label>CVV :</label><input type="text" name="lastname" class="form-control" id="cvv" value=""><br>
+
+                    <input type="button" onclick="return pg()" class="col-sm-offset-5 col-sm-2" id="review" value="Review">
+                    <h1></h1><br>
+                </form>
+            </div>
+
+            <div id="reviewdetails"  >
+                <label>First name:</label><p id="rfname" class="displaycontents"></p><br>
+                <label>Last name:</label><p id="rlname" class="displaycontents">  </p><br>
+                <label>Phone Number:</label><p id="rphnnum" class="displaycontents">  </p><br>
+                <label>Address:</label><p id="raddr" class="displaycontents"></p><br>
+                <label>Zip Code:</label><p id="rzipcode" class="displaycontents"> </p><br>
+                <label>Email:</label><p id="remail" class="displaycontents">  </p><br>
+                <label>Enter Card Number:</label><p id="rcardnum" class="displaycontents"> </p><br>
+                <label>CVV :</label><p id="rcvv" class="displaycontents"> </p><br>
+
+                <button onclick="myEdit();" id="editbtn" ><b>EDIT</b></button>
+                <button onclick="location.href='page3.html'; mySubmit();"  id="submitbtn"><b>FINALIZE</b></button>
+                <h1></h1>
+
+
+            </div>
+
+    </div>
+    <script src="page2.js"></script>
+</body>
+</html>

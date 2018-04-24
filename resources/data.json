@@ -1,0 +1,116 @@
+{
+  "dict": [
+    {
+      "name": "GRGA120 Series Electric Guitar",
+      "price": 349,
+      "color": "Black",
+      "weight": "6.8 lbs",
+      "desc": "GRGA120 GIO RGA Series Electric Guitar Black Night. Ibanez builds guitars for all levels of players—from beginners to the most demanding masters of the instrument. Regardless of price, Ibanez always strives to offer the absolute best sound, style, and playability in its class.",
+      "imgsrc": "5.jpg",
+      "seller":"The Guitar Shop",
+      "itemno":126987,
+      "reviews": [
+        {
+          "name": "Martha Wayne",
+          "comment": "This is best product to buy."
+        },
+        {
+          "name": "James Gordon",
+          "comment": "Poor performance after usage of 3 months."
+        },
+        {
+          "name": "Ra's al Ghul",
+          "comment": "I love to play with swords!"
+        }
+      ]
+    },
+    {
+      "name": "G-Series Rock 1200",
+      "price": 200,
+      "color": "Red - White",
+      "weight": "6 lbs",
+      "desc": "The RG is the most recognizable and distinctive guitar in the Ibanez line. Three decades of metal have forged this high-performance machine, honing it for both speed and strength. Whether you favor a hardtail (fixed) bridge or our industry-leading locking tremolo system, the RG is a precision instrument.",
+      "imgsrc": "1.jpg",
+      "seller":"NYC Musicals",
+      "itemno":123456,
+      "reviews": [
+        {
+          "name": "Mark Ryans",
+          "comment": "This is best product to buy."
+        },
+        {
+          "name": "Kieth Robbinson",
+          "comment": "Poor performance after usage of 3 months."
+        },
+        {
+          "name": "Katty Perry",
+          "comment": "I don't like it, that's it."
+        }
+      ]
+    },
+    {
+      "name": "F-Series FireStorm X",
+      "price": 250,
+      "color": "Wooden",
+      "weight": "6.5 lbs",
+      "desc": "Taylor’s popular 814ce offers players the ultimate all-purpose guitar. Its balance, warmth and articulation are great for fingerstyle, it has enough punch as a strummer to front a band, and the top-end power will fuel lead runs without getting shrill.",
+      "imgsrc": "2.jpg",
+      "seller":"Brooklyn Musicals",
+      "itemno":103446,
+      "reviews": [
+        {
+          "name": "Merry Jones",
+          "comment": "This is best product to buy."
+        },
+        {
+          "name": "Robert Jones",
+          "comment": "Poor performance after usage of 3 months."
+        }
+      ]
+    },
+    {
+      "name": "814ce Band Rock",
+      "price": 299,
+      "color": "Orange-Black-Yellow",
+      "weight": "9.5 lbs",
+      "desc": "Premium appointments include maple binding and back strip, rosewood top edge trim, a rosewood pickguard, Taylor’s new Element fretboard inlay in mother-of-pearl, a marbled fretboard, and new Expression System 2 acoustic electronics. The guitar features a Venetian cutaway and includes a Taylor deluxe hardshell case.",
+      "imgsrc": "3.jpg",
+      "seller":"City Instruments",
+      "itemno":985423,
+      "reviews": [
+        {
+          "name": "Gregg Delancy",
+          "comment": "This is best product to buy."
+        },
+        {
+          "name": "Tommy Merlyn",
+          "comment": "Poor performance ."
+        }
+      ]
+    },
+    {
+      "name": "341de Band Fire",
+      "price": 199,
+      "color": "Orange-Black-Yellow",
+      "weight": "5.8 lbs",
+      "desc": "Spectrum AIL 36K Student Size 36″ Acoustic Guitar. Natural Matte Finished Linden Top with Mahogany Finished Back & Sides. Features Rosewood Fingerboard, Decorative Sound hole Design & ABS Binding. Color: Natural. 90 Days Labor & 2 Year Parts Warranty. Manual & Instructions Included. Included Accessories: Guitar Bag, Adjustable Strap.",
+      "imgsrc": "4.jpg",
+      "seller":"The Guitar Shop",
+      "itemno":764391,
+      "reviews": [
+        {
+          "name": "Oliver Queen",
+          "comment": "This is best product to buy."
+        },
+        {
+          "name": "Bruce Wayne",
+          "comment": "Poor performance after usage of 1 months."
+        },
+        {
+          "name": "Joker",
+          "comment": "Why so serious!"
+        }
+      ]
+    }
+  ]
+}

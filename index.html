@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body onload="initialload()">
+<div id="container">
+    <div id="navdiv"></div>
+    <ul id="navigation">
+        <li class="navbar"><a href="#home">HOME</a></li>
+        <li class="navbar"><a href="#guitars">GUITARS</a></li>
+        <li class="navbar"><a href="#drums">DRUMS</a></li>
+        <li class="navbar"><a href="#piano">PIANO</a></li>
+        <li class="navbar"><a href="#casio">CASIO</a></li>
+        <li class="navbar"><a href="#HELP">HELP</a></li>
+    </ul>
+</div>
+
+    <div class="imgdiv" >
+        <button class ="img1 imgbtn"  style="margin-left:100px" onclick="prevImage()">PREVIOUS</button>
+        <img  class="img1" src="" alt="img" width="300" height="300" id="myimg">
+        <button class="img1 imgbtn" style="margin-bottom: 153px; margin-right:50px" onclick="nextImage()">NEXT</button>
+    </div>
+    <br>
+
+    <div id="bottomcontent">
+    <div id="info">
+        <div id="productinfo">
+            <button onclick="wrapProdInfo()" class="button3"><h1>Product Information</h1></button>
+            <div id="wrapprodinfo">
+                <h4 id="prodname">American Guitar</h4>
+                <p>Price: <b id="prodprice">$250.00</b></p>
+                <p>Color: <b id="prodcolor">Scandal</b></p>
+                <p>Weight: <b id="prodweight">200lb</b></p>
+            </div>
+        </div>
+
+        <br>
+        <div id="shippinginfo">
+            <button onclick="wrapShipInfo()" class="button3"><h1>Shipping Information</h1></button>
+            <div id="wrapshipinfo">
+                <p>Seller: <b id="prodseller">Jivraj Productions</b></p>
+                <p>Itemno: <b id="itemno">118657</b></p>
+            </div>
+        </div>
+        <br>
+        <div id="customer_reviews">
+            <button onclick="wrapProdReview()" class="button3"><h1>Customer Reviews</h1></button>
+            <div id="wrapcustomerreview">
+                <p>Name:<b id="r_name">Sweta Patel</b></p>
+                <p>Review:<b id="reviews">It really nice .</b></p>
+            </div>
+        </div>
+
+    </div>
+    <div id="buy">
+        <button onclick="location.href='page2.html'; buybtn();"  id="buybtn">BUY NOW</button>
+    </div>
+    </div>
+</div>
+<audio autoplay id="audioBox">
+    <source id="musicFile" src="resources/1.mp3" type="audio/mpeg">
+</audio>
+<script src="index.js"></script>
+</body>
+</html>

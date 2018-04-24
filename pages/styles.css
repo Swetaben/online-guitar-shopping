@@ -1,0 +1,30 @@
+body{
+    background-image: url("bgwood.jpg");
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    background-color:#dddddd;
+    overflow: hidden;
+}
+
+li{
+    display:inline;
+    white-space: normal;
+    font-size: 25px;
+}
+
+li a{
+
+    color:black;
+    text-align: center;
+    padding:26px 35px;
+    text-decoration: none;
+    align-items: center;
+    font-family:Arial;
+}
+
+li a:hover {
+    background-color: red;
+    color:white;
+}
